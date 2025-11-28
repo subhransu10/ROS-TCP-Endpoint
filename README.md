@@ -1,19 +1,10 @@
 # ROS TCP Endpoint
 
-[![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
-[![Version](https://img.shields.io/github/v/tag/Unity-Technologies/ROS-TCP-Endpoint)](https://github.com/Unity-Technologies/ROS-TCP-Endpoint/releases)
-![ROS](https://img.shields.io/badge/ros-melodic,noetic-brightgreen)
-![ROS](https://img.shields.io/badge/ros2-foxy,galactic-brightgreen)
-
----
-
-We're currently working on lots of things! Please take a short moment fill out our [survey](https://unitysoftware.co1.qualtrics.com/jfe/form/SV_0ojVkDVW0nNrHkW) to help us identify what products and packages to build next.
-
----
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Introduction
 
-[ROS](https://www.ros.org/) package used to create an endpoint to accept ROS messages sent from a Unity scene. This ROS package works in tandem with the [ROS TCP Connector](https://github.com/Unity-Technologies/ROS-TCP-Connector) Unity package.
+[ROS](https://www.ros.org/) package used to create an endpoint to accept ROS messages sent from a Unity scene using the [ROS TCP Connector](https://github.com/Unity-Technologies/ROS-TCP-Connector) scripts.
 
 Instructions and examples on how to use this ROS package can be found on the [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/master/tutorials/ros_unity_integration/README.md) repository.
 
@@ -30,6 +21,7 @@ For feature requests, bugs, or other issues, please file a [GitHub issue](https:
 
 For any other questions or feedback, connect directly with the
 Robotics team at [unity-robotics@unity3d.com](mailto:unity-robotics@unity3d.com).
-
+## Solved Bug
+Solved the issue for ROS2 Humble. Please note that this is for the version -0.7.0, the latest one.Please match the versions while setting up the bridge on Unity [ROS-TCP-Connector package](https://github.com/Unity-Technologies/ROS-TCP-Connector/tree/v0.7.0).
 ## License
 [Apache License 2.0](LICENSE)
